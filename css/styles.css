@@ -1,0 +1,129 @@
+
+html {
+  overflow: hidden;
+  background: #262b2e;
+  color: white;
+}
+
+body{
+  position:fixed;
+   background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  -webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+ color: white; 
+}
+
+
+
+#wrapper {
+  height:100%;
+  width:100%;
+  text-align: center;
+  display: table;
+  position:absolute;
+}
+
+#good1{
+  font-size: 20px;
+  border-bottom-width: 0px;
+  transition-duration: 0.2s;
+}
+
+#good1:hover{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  font-size:25px;
+  
+}
+
+#good2{
+  font-size: 20px;
+  border-bottom-width: 0px;
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color: green
+}
+
+#good2:hover{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  font-size:25px;
+  
+}
+
+#bad1{
+  font-size: 20px;
+  border-bottom-width: 0px;
+  transition-duration: 0.2s;
+}
+
+#bad1:hover{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  font-size:25px;
+}
+
+#bad2{
+  font-size: 20px;
+  border-bottom-width: 0px;
+  transition-duration: 0.3s;
+  color:red;
+}
+
+#bad2:hover{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+  font-size:25px;
+}
+
+
+#title {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#get-info{
+  margin-top:5%;
+}
+
+
+
+#title h2 {
+  color: #fff;
+  font-size: 45px;
+  font-family: "museo-slab";
+}
+
+#title h3 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "museo-sans";
+  font-weight: 300
+}
+
+
+#wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1950px;
+  height: auto; 
+}
+
+
+#canvasbg {
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.6;
+}

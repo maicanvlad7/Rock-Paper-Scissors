@@ -1,0 +1,18 @@
+----FIRST PAGE-----
+
+An image with a robot and a speech bubble saying
+"Hello! My name is [INSERT NAME HERE]"
+"Today you'll be playing Rock Paper Scrissor against me!"
+"Let the better player win!"
+
+      PLAY GAME button
+
+-----SECOND PAGE-----
+
+The actual game:
+
+- Score on Top;
+
+- 3 images (round) with a Rock a Paper and Scrissors;
+
+- YOU WIN / YOU LOSE text under the game zone; 
